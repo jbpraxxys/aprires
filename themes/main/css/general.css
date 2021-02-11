@@ -1,0 +1,354 @@
+
+body{
+	overflow-x: hidden;
+}
+p{
+    color: #555;
+}
+#adminLogin{
+    margin-top: 150px;
+}
+#header-holder {
+	position: fixed;
+	top: 0;
+	height: 86px;
+	background-color: #fff;
+	z-index: 999;
+	-ms-transition:     all linear 0.3s;
+    -moz-transition:    all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition:      all linear 0.3s;
+    transition:         all linear 0.3s;
+}
+#header-holder.shrink{
+	height: 67px !important;
+	-webkit-box-shadow: 0px 6px 5px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 5px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 5px -4px rgba(0,0,0,0.75);
+}
+.header.shrink{
+	margin: 0 !important;
+}
+.header ul > li {
+	padding-left: 25px;
+	font-size: 1.1em;
+	color:#000;
+
+	 -ms-transition:    all linear 0.3s;
+    -moz-transition:    all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition:      all linear 0.3s;
+    transition:         all linear 0.3s;
+}
+
+.header ul > li:hover{
+	color:rgb(0,174,239);
+}
+
+.header ul > li.current{
+	color:rgb(0,174,239);
+}
+
+.header ul > li > a.active{
+	color:rgb(0,174,239);
+}
+
+
+.bg-white-overlay{
+	background-color:rgba(255,255,255,.7);
+}
+.bg-lightb-overlay{
+	background-color:rgba(41,174,224,.7);
+}
+.bg-darkb-overlay{
+	background-color:rgb(41,174,224);
+}
+
+.color-blue{
+	color:rgb(46,49,146);
+}
+.color-l-blue{
+    color:rgb(0,175,243);
+}
+.banner-holder{
+	padding:60px 0;
+}
+.banner-holder .text-header > h1{
+	font-size: 3em;
+}
+
+.banner-text .details > p{
+	color:#555;
+    font-size: .96em;
+    line-height: 1.5em;
+
+}
+.banner-text-holder{
+    width: 50%;
+    margin: 0 auto;
+}
+.button-blue {
+	background-color: rgb(0,174,239);
+	color: #fff;
+	border-radius: 50px;
+	width: 175px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+    border:1px solid rgb(0,174,239);
+	-webkit-box-shadow: 0px 4px 0px 1px rgba(0,153,210,1);
+	-moz-box-shadow: 0px 4px 0px 1px rgba(0,153,210,1);
+	box-shadow: 0px 4px 0px 1px rgba(0,153,210,1);
+
+	 -ms-transition:     all linear 0.3s;
+    -moz-transition:    all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition:      all linear 0.3s;
+    transition:         all linear 0.3s;
+}
+.button-blue:hover {
+	background-color: rgb(46,49,146);
+    color: #fff;
+}
+.button-white {
+	background-color: #fff;
+	color: rgb(0,174,239);
+	border-radius: 50px;
+	width: 175px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 4px 0px 1px rgb(204,204,204);
+	-moz-box-shadow: 0px 4px 0px 1px rgb(204,204,204);
+	box-shadow: 0px 4px 0px 1px rgb(204,204,204);
+
+	 -ms-transition:     all linear 0.3s;
+    -moz-transition:    all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition:      all linear 0.3s;
+    transition:         all linear 0.3s;
+
+}
+.button-white:hover {
+	background-color: rgb(46,49,146);
+	color: #fff;
+}
+
+.sitemap p > a {
+	color: rgb(0,174,239);
+	-ms-transition:     all linear 0.3s;
+    -moz-transition:    all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition:      all linear 0.3s;
+    transition:         all linear 0.3s;
+    font-size: 1em;
+    line-height: 24px;
+}
+.sitemap p > a:hover{
+	color:rgb(186,219,247);
+}
+.footer-links p > a {
+	color: rgb(0,174,239);
+	-ms-transition:     all linear 0.3s;
+    -moz-transition:    all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition:      all linear 0.3s;
+    transition:         all linear 0.3s;
+    font-size: 1em;
+    line-height: 24px;
+}
+.footer-links p > a:hover{
+	color:rgb(186,219,247);
+}
+
+
+/*
+|-----------------------------------------------
+| @Animation
+|-----------------------------------------------
+*/
+
+.fade-in {
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fade-in.animate {
+    opacity: 1;
+     -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fade-in-left {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transform: translateX(-100px);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fade-in-left.animate {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.fade-in-right {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+    transform: translateX(100px);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fade-in-right.animate {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.fade-in-up {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fade-in-up.animate {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.fade-in-down {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.fade-in-down.animate {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+label.error{
+    display: none !important;
+}
+input.error, select.error{ box-shadow: 0 0 3px #CC0000; }
+
+.tbl-header{
+    margin:0 auto;
+}
+.tbl-header > div{
+    background-color: rgb(40,173,222);
+    padding: 10px;
+    border-right: 1px solid #fff;
+
+}
+.tbl-header > div:last-child{
+    border-right: none !important;
+
+}
+.tbl-header > div > p{
+    color:#fff;
+}
+
+.tbl-content{
+    width: 70%;
+    margin: 0 auto;
+    height: 150px;
+    -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    -o-box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+
+}
+.tbl-content > div > h1{
+    font-weight: 700;
+    color:#555;
+    font-size: 2.9em;
+}
+
+.note{
+    font-size: .8em;
+    font-weight: bold;
+    color: #555;
+    font-style: italic;
+}
+.rates-modal-content{
+    height: 385px;
+    overflow-y: auto;
+}
+
+/* 
+|----------------------------------------
+|   @Scroll Bar
+|----------------------------------------
+*/
+.custom-scroll::-webkit-scrollbar-track
+{
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.custom-scroll::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb
+{
+    background-color: #00AEEF;
+    border-radius: 20px;
+}

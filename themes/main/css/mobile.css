@@ -1,0 +1,215 @@
+/*
+ * MOBILE DESIGN
+ */
+/*GENERAL*/
+@media screen and (max-width: 1220px){
+	#mobile-ham{
+	   display: inline-block;
+	}
+	#header-holder .menu-items > ul {
+		display: none;
+	}
+	.side-nav{
+		display: block;
+	}
+}
+@media screen and (max-width: 600px){
+	.side-nav{
+		width: 100%;
+	}
+	.side-nav div.side-items{
+		padding: 20px 5px;
+	}
+
+	.side-nav div.side-items p{
+		font-size: 1.2em;
+	}
+	#home .about-content > div, #home .services-content > div {
+	    padding: 0 20px;
+	    width: 100% !important;
+	    margin-bottom: 50px;
+	}
+	.details-holder {
+	    width: 90% !important;
+	    margin: 0 auto;
+	}
+
+}
+@media screen and (max-width: 900px){
+	#home .about-content > div,#home .services-content > div{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 315px){
+	.header .logo{
+		padding-left:10px;
+	}
+	.menu-holder .menu-items{
+		padding-right: 20px;
+	}
+}
+
+
+/*FRAME 1(BANNER) */
+@media screen and (max-width: 1141px){
+	#home .banner-holder .text-header > h1 {
+    	font-size: 3em;
+	}
+}
+@media screen and (max-width: 1015px){
+	#home .banner-holder .text-header > h1 {
+    	font-size: 2.5em;
+	}
+}
+@media screen and (max-width: 900px){
+	#home .banner-holder .text-header > h1 {
+    	font-size: 2.4em;
+	}
+}
+@media screen and (max-width: 874px){
+	#home .banner-holder .text-header > h1 {
+    	font-size: 2.4em;
+	}
+	#home #frame1 .banner-text-holder{
+		width: 54% !important;
+	}
+	
+}
+@media screen and (max-width: 810px){
+	#home #frame1 .banner-text-holder{
+		width: 60% !important;
+	}
+}
+@media screen and (max-width: 729px){
+	#home #frame1 .banner-text-holder{
+		width: 87% !important;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#home #frame1 .banner-text > div{
+		margin-left: 0px !important;
+	}
+	#home #frame1 .banner-text-holder{
+		width: 93% !important;
+		margin: 0 auto;
+	}
+
+	#home #frame1 .banner-text{
+		padding-left: 0 !important;
+
+	}
+	#home .banner-holder .text-header > h1 {
+    	font-size: 2em;
+	}
+}
+
+
+
+
+/*CONTACT FRAME*/
+
+@media screen and (max-width: 1000px){
+	#home #frame7 .contact-holder {
+	    width: 75% !important;
+	}
+}
+@media screen and (max-width: 960px){
+	#home #frame7 #contact-form-holder {
+	    width: 100%;
+	}
+	#home #frame7 .contact-form-holder-right {
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 650px){
+	#home #frame7 .contact-holder {
+	    width: 80% !important;
+	}
+	#home #frame7 .input-holder h5 {
+	    padding-right: 10px;
+
+	}
+	#home #frame7 #contact-form-holder {
+	    padding-right: 50px !important;
+	}
+}
+@media screen and (max-width: 600px){
+	#home #frame7 .contact-holder {
+	    width: 90% !important;
+	}
+	#frame8 .sitemap, #frame8 .footer-links {
+	    width: 50%;
+	}
+
+}
+@media screen and (max-width: 530px){
+	#home #frame7 .contact-header > div.contact-detail-holder > a > h5 {
+	    font-size: 1em;
+	}
+	#home #frame7 .contact-header > div.contact-detail-holder {
+	    width: 80%;
+	}
+
+}
+@media screen and (max-width: 500px){
+	#home #frame7 #contact-form-holder {
+	   padding:40px 5px;
+	}
+}
+@media screen and (max-width: 470px){
+	#home #frame7 .contact-holder {
+	    width: 95% !important;
+	}
+	#home #frame7 .input-holder h5 {
+	    font-size: .9em;
+	    text-align: left;
+  		width: 90%;
+	}
+	#home #frame7 #contact-form-holder {
+	    padding-right: 32px !important;
+	}
+
+	#home #frame7 #contact-form-holder input, #home #frame7 #contact-form-holder textarea {
+	    width: 90%;
+	}
+
+	#home #frame7 .contact-header > div.contact-icon-holder {
+	   display: block;
+	}
+	#home #frame7 .contact-header > div.contact-detail-holder {
+	   width: 100%;
+	   display: block;
+	   text-align: center;
+	   padding-left: 0px;
+	}
+
+}
+@media screen and (max-width: 460px){
+	#frame5 .slick-next{
+		right: -20px;
+		font-size: 4em;
+	}
+
+#frame5 .slick-prev{
+		left: -20px;
+		font-size: 4em;
+	}
+}
+
+/*
+ * RATES POP UP
+ */
+
+@media screen and (max-width: 470px){
+	.tbl-header,.tbl-content {
+	    width: 90% !important;
+	}
+	.tbl-content > div > h1 {
+		font-size: 2em;
+	}
+	.remodal{
+		padding:5px !important;
+	}
+}

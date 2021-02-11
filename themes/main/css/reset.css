@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Reset it all! */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    /*font-family: Arial, sans-serif;*/
+    font-weight: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6  {
+    /*font-family: Arial, sans-serif;*/
+}
+
+h1 { 
+    font-size: 2em;
+}
+
+h2 { 
+    font-size: 1.8em;
+}
+
+h3 { 
+    font-size: 1.6em;
+}
+
+h4 { 
+    font-size: 1.4em;
+}
+
+h5 { 
+    font-size: 1.2em; 
+}
+
+h6 { 
+    font-size: 1em; 
+}
+
+a, label, span {
+    font-size: .9em;
+}
+
+p { 
+    font-size: 1em;
+}
+
+label { 
+    font-size: .85em; 
+}
+
+a {
+    text-decoration: none;
+    outline: 0 none;
+    color: inherit;
+}
+
+ul, li {
+    display: inline-block;
+}
+
+strong {
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+input,
+textarea {
+    font-family: Arial, sans-serif;
+}
+
+/*
+|-----------------------------------------------
+| @Silverstripe : CMS Login/forgot
+|-----------------------------------------------
+*/
+#MemberLoginForm_LoginForm,
+#MemberLoginForm_LostPasswordForm {
+    height: 60%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#MemberLoginForm_LoginForm_Password_Holder {
+    margin-top: 10px;
+}
+
+#MemberLoginForm_LoginForm_Email,
+#MemberLoginForm_LoginForm_Password,
+#MemberLoginForm_LostPasswordForm_Email {
+    margin-top: 5px;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+    outline: none;
+}
+
+#MemberLoginForm_LoginForm_action_dologin,
+#MemberLoginForm_LostPasswordForm_action_forgotPassword {
+    padding: 5px 20px;
+    margin: 10px 0;
+    outline: none;
+}
+
+#MemberLoginForm_LoginForm_Remember_Holder,
+#MemberLoginForm_LoginForm_Remember_Holder .checkbox {
+    width: auto !important;
+    vertical-align: middle;
+    margin: 10px 5px;
+}
+
+.admin-logo{
+    width: 15%;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.admin-logo img{
+    width: 100%;
+}
